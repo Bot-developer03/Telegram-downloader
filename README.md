@@ -4,7 +4,7 @@ A Telegram bot for file downloading automation
 
 If you have got an Internet connected computer or a NAS and you want to automate file downloading from Telegram channels, this bot is for you. You can share photos, audios, or small files with it and the bot will download them as well.
 
-IMPORTANT: Telegram set up a limit to the size a bot can download (20Mb currently). If you plan to download big files, a bot will not work. Take a look on my alternative project:  https://github.com/alfem/telegram-download-daemon 
+IMPORTANT: Telegram set up a limit to the size a bot can download (20Mb currently). If you plan to download big files,this bot will not work. 
 
 ## Installation
 
@@ -14,9 +14,14 @@ Just create a new Telegram bot (https://core.telegram.org/bots), edit this scrip
 * TELEGRAM_CHAT_ID: you user (or group) id in Telegram. If you do not know it, you can talk to @get_id_bot and send it a "/my_id" command  
 * DOWNLOADS_FOLDER: Change the download directory is desired.
 
-Thanks to @mitto98 contribution you can use enviroment variables instead of editing the python file.
-
-Install the python bot library, from Gihub (https://github.com/python-telegram-bot/python-telegram-bot) or using pip ( https://pypi.python.org/pypi/python-telegram-bot/). There are many telegram modules around. Do not use another one with a similar name.
+Install the python bot library, from Gihub 
+```
+https://github.com/python-telegram-bot/python-telegram-bot
+```
+```
+cd telegram-downloader
+```
+ There are many telegram modules around. Do not use another one with a similar name.
 
 Also "request" module is needed. It is very popular and probably you have it installed already. If not, just use pip or your system package manager.
 
